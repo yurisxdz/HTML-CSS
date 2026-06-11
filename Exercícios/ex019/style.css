@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*
+em HTML tudo que é id, em CSS vira # (um elemento)
+em HTML tudo que é class, em CSS vira . (mais de um elemento)
+*/
+
+body {
+    background-color: rgba(190, 214, 150, 0.516);
+    font-family: 'Poppins';
+    font-style: normal;
+}
+
+h1 {
+    color: rgba(52, 69, 25, 0.9);
+    font-weight: bolder;
+
+    &#principal {
+        color: rgba(255, 255, 255, 0.9);
+        background-color: rgba(25, 53, 3, 0.2);
+        box-shadow: 1px 6px 10px 1px;
+        align-items: center;
+        width: 500px;
+        font-weight: 300;
+        padding: 10px 20px;
+        border-radius: 40px;
+        margin: auto;
+    }
+}
+
+.basico {
+    color: rgba(97, 157, 6, 0.9);
+}
+
+.intermediario {
+    color: rgba(192, 127, 7, 0.9);
+}
+
+.avançado  {
+    color: rgba(167, 17, 17, 0.9);
+}
+
+h2 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 300;
+    text-indent: 20px;
+}
+
+
+

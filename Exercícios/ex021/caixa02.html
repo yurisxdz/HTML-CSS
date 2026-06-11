@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;    
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav {
+            background-color: gray;
+            padding: 2px;
+            box-shadow: 1px 3px 9px rgba(0, 0, 0, 0.6);
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 14px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            display: flex;
+            gap: 10px;
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.6);
+        }
+
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+
+        aside {
+            background-color: gray;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        p {
+            margin: 0px;
+        }
+
+        h1 {
+            font-weight: 400;
+            width: 300px;
+            margin: auto;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: rgba(50, 53, 52, 0.9);
+            background-color: rgba(222, 221, 221, 0.9);
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.6);
+            border-radius: 20px;
+            padding: 12px;
+            text-align: center;
+        }
+
+        #bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            border-radius: 50%;
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <ul>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+                <li><a href="">Link</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi necessitatibus qui labore nulla iste soluta, perspiciatis velit quas voluptas aliquid atque ipsa deleniti similique beatae saepe doloremque minus quae excepturi!</p>
+                <aside>
+                    <p>Artigo escrito por José da Silva</p>
+                </aside>
+            </article>
+            <article>
+                <aside>
+
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+</body>
+</html>

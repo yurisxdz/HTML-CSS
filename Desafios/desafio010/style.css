@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Idroid';
+    src: url(fontes/idroid.otf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+h2,
+h3 {
+    font-family: 'Idroid';
+    color: #1A5C38;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 1.8em;
+    padding: 5px;
+}
+
+p {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: lighter;
+    text-indent: 30px;
+    line-height: 1.8;
+    margin: auto;
+    padding: 5px;
+}
+
+span {
+    color: #1A5C38;
+    font-weight: bold;
+}
+
+a {
+    padding: 5px;
+    background-color: #8cddb1;
+    color: #1A5C38;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-image: linear-gradient(to top, #094123, #2cad66);
+    height: 250px;
+}
+
+.title {
+    font-size: 2.5em;
+    margin: auto;
+    font-family: "Anton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    padding: 35px 0px 20px 0px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.back-green {
+    background-image: linear-gradient(to right, #0fdd6caa, #c6ead600);
+}
+
+.paper {
+    border-radius: 0px 0px 10px 10px;
+    font-size: 16px;
+    background-color: white;
+    max-width: 75%;
+    align-items: center;
+    margin: auto;
+    padding-top: 10px;
+    box-shadow: 1px 0px 20px 6px rgba(0, 0, 0, 0.3);
+}
+
+.first-p {
+    font-size: 1.2em;
+    color: rgba(255, 255, 255, 0.9);
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.menu li {
+    font-size: 1em;
+    color: #8cddb1;
+    font-weight: bold;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    margin: 16px -5px 0px 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.menu li:hover {
+    background-color: rgba(60, 214, 129, 0.5);
+    color: #1A5C38;
+}
+
+.irina-blok {
+    padding-left: 10%;
+    width: 90%;
+}
+
+.img-dan-droids {
+    padding-left: 10%;
+    width: 90%;
+}
+
+.img-bugdroid {
+    display: block;
+    margin: auto;
+}
+
+.yt-video {
+    background-color: #094123;
+    height: 40%;
+    width: 100%;
+    padding: 35px;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+.fisrt-verison {
+    padding: 10px;
+}
+
+.new-mascot {
+    padding-bottom: 15px;
+}
+
+.learn-box {
+    max-width: 94%;
+    border-radius: 15px;
+    background-color: #8cddb1;
+    box-shadow: 1px 0px 20px 6px rgba(0, 0, 0, 0.3);
+    margin: auto;
+}
+
+.title-learn {
+    font-size: 1.2em;
+    color: white;
+    padding: 15px;
+    background-color: #094123;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.order {
+    color: black;
+}
+
+.order, .order2 {
+    list-style: none;
+}
+
+footer {
+    margin-top: 30px;
+    color: white;
+    font-size: 0.9em;
+    padding: 5px;
+    text-align: center;
+    background-color: #094123;
+}
+
+.final {
+    margin: 20px;
+    padding: 15px;
+}
+
+.lists {
+    display: flex;
+    gap: 150px;
+    padding: 25px;
+}
+
+.gustavo, .curso {
+    background-color: #094123;
+    color: white;
+}
