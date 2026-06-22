@@ -13,6 +13,7 @@
         table {
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td,th {
@@ -32,6 +33,22 @@
             background-color: gray;
             color: white;
         }
+        
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(odd) { /* odd significa impar (2n-1) */
+            background-color: white;
+        }
+
+        tbody > tr:nth-child(even) { /* even significa par (2n) */
+            background-color: lightgray;
+        }
+
+        /* temos o 2n, que seria para pular a segunda linha, 3n que pula a terceira linha */
 
         .num {
             text-align: right;
@@ -181,6 +198,13 @@
                 </tr>
             </tfoot>
     </table>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A aspernatur adipisci laudantium eius error ab nihil culpa quisquam veritatis architecto, earum numquam necessitatibus ipsum, suscipit facilis in consectetur, quidem nulla. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora maxime quisquam nam sequi asperiores quasi vel quod maiores officia aliquam, natus quidem perferendis illum amet error libero ducimus accusantium quaerat! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, iure ratione iste eos soluta repudiandae, commodi obcaecati impedit similique sit iusto aspernatur facere, veritatis suscipit fuga id tenetur nostrum vel! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos sit fugiat necessitatibus qui quibusdam quo commodi nobis nostrum dicta magni, id dolore iusto ullam, fugit quia a ab cum facere?</p>
 </body>
 
 </html>
